@@ -1,0 +1,30 @@
+{
+  "name": "peeps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm",
+    "build:bin": "",
+    "test": "vitest"
+  },
+  "keywords": [
+    "api",
+    "people",
+    "cli"
+  ],
+  "author": "Ken Snyder <ken@ken.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "@types/node": "^20.16.10",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.2"
+  },
+  "dependencies": {
+    "inferred-types": "^0.50.11",
+    "typed-mapper": "^0.4.2",
+    "vladdress": "^1.1.3"
+  }
+}
